@@ -1,0 +1,110 @@
+.alignleft{
+    float:left;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 15px 40px ;
+    margin: 0px 0px 0px 0px;
+}
+
+.alignright{
+    float:right;
+    color:white;
+    padding: 0px 40px 0px 0px ;
+
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+#nav{
+    position: sticky;
+    overflow:hidden;
+    background: #302f2f;
+    margin-right: -60px;
+    margin-left:-20px;
+    margin-top:-10px;
+    z-index: 1000;
+    width: 1400px;
+}
+
+a{
+    text-decoration: none;
+    padding:15px 15px 15px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color:antiquewhite;
+}
+
+table,th,td{
+    border: 1px solid grey;
+    padding:10px;
+    text-align: left;
+    width:700px;
+    margin:10px;
+    border-collapse: collapse;
+}
+.other{
+    border:0px;
+}
+#other1{
+    border-left-width:1px; 
+}
+input{
+    width: 100%;
+   margin-right: 40px;
+}
+#center{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    height: auto;
+    left:310px;
+    right:210px;
+    width: 700px;
+    border: 1px solid white;
+    padding: 15px 25px 15px 15px;
+}
+#center1{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    height: auto;
+    left:300px;
+    right:200px;
+    width: 700px;
+    border: 1px solid white;
+    padding: 15px 25px 15px 15px;
+    margin-top: 40px;
+}
+
+.reg{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color:whitesmoke;
+    border: 1px solid black;
+    width:709px;
+}
+
+.reg:active{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color:whitesmoke;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.act{
+    text-decoration: none;
+    padding:15px 15px 15px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color:antiquewhite;
+}
+
+.act:hover{
+    text-decoration: none;
+    padding:15px 15px 15px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgba(66, 66, 238, 0.808);
+}

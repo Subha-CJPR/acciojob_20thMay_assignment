@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="project.css">
+</head>
+
+<body style="background-color: rgba(204, 194, 194, 0.856);">
+	<!-- the entire body must be written by student -->
+    <div id="nav" style="background-color:black;">
+        <p class="alignleft">Library System</p>
+        <p class="alignright">
+            <a class="act" href="#center1">Books</a>
+            <a class="act" href="#center">Register</a>
+            <a class="act" href="#">Contact Us</a>
+            <a class="act" href="#">Logout</a>
+        </p>
+        
+    </div>
+
+   <div id="center1">
+    <h2>Books</h2>
+    <table>
+    <tr>
+        <th>Book ID</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Avaliability</th>
+    </tr>
+    <tr>
+        <th rowspan="4">1</th>
+        <td><a href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwKSoxM2D0Ys9NTE5KLckAADSkBbQ&q=macbeth&rlz=1C1ONGR_enIN1022IN1022&oq=macbath&aqs=chrome.2.69i57j46i10i131i340i433i512l2j46i10i131i433i512j0i10i131i433i512j0i10i512j46i10i131i340i433i512j0i10i512l2.4006j0j9&sourceid=chrome&ie=UTF-8" style="color:blue;text-decoration:underline;">Book Title 1</a></td>
+    </tr>
+    <tr>
+        <td>Publication Date : 2000</td>
+    </tr>
+    <tr>
+        <td>
+            Page Count : 250
+        </td>
+        <td class="other">
+            Author Name 1
+        </td>
+        <td class="other">
+            Genre 1
+        </td>
+        <td class="other">
+            Available
+        </td>
+    </tr>
+    <tr>
+        <td>
+            ISBN : 123-4567890123
+        </td>
+    </tr>
+
+    <tr>
+        <th rowspan="4">2</th>
+        <td><a href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwzU1JMWD0Ys8vyUjNyckHADZ2BfE&q=othello&rlz=1C1ONGR_enIN1022IN1022&oq=othel&aqs=chrome.1.69i57j46i340i433i512j46i131i340i433i512j46i131i433i512j0i131i433i512j0i433i512j0i512l2j0i271.1813j0j9&sourceid=chrome&ie=UTF-8" style="color:blue;text-decoration:underline;">Book Title 2</a></td>
+    </tr>
+    <tr>
+        <td>Publication Date : 2005</td>
+    </tr>
+    <tr>
+        <td>
+            Page Count : 300
+        </td>
+        <td class="other">
+            Author 2
+        </td>
+        <td class="other">
+            Genre 2
+        </td>
+        <td class="other">
+            Not Available
+        </td>
+    </tr>
+    <tr>
+        <td>
+            ISBN : 123-4567890456
+        </td>
+    </tr>
+
+    <tr>
+        <th rowspan="4">1</th>
+        <td><a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwKqgorDJg9OItyM9Ozc3PU8hNzEtPBABvBQi5&q=pokemon+manga&rlz=1C1ONGR_enIN1022IN1022&oq=pokemon+manga&aqs=chrome.1.0i355i433i512j46i433i512j0i512l8.4386j0j9&sourceid=chrome&ie=UTF-8" style="color:blue;text-decoration:underline;">Book Title 3</a></td>
+    </tr>
+    <tr>
+        <td>Publication Date : 2010</td>
+    </tr>
+    <tr>
+        <td>
+            Page Count : 350
+        </td>
+        <td class="other">
+            Author name 3
+        </td>
+        <td class="other" id="other1">
+            Genre 3
+        </td>
+        <td class="other">
+            Available
+        </td>
+    </tr>
+    <tr>
+        <td>
+            ISBN : 123-4567890789
+        </td>
+    </tr>
+    </table>
+   </div>
+   <br>
+   <br>
+    <div id="center">
+        <h3>Register</h3>
+        <div style=>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" class="name" minlength="4" maxlength="200" required>
+        </div>
+        <div>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" class="name" required>
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" min="1996-05-20" max="2023-05-20" required>
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" min="5" max="100" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" pattern="^(?!.\.{2})(?!\.)[a-z0-9_.'-][a-z0-9_'-]@" required>
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" min="8" required>
+        </div>
+        <div>
+            <label for="pass">Confirm Password</label>
+            <input type="password" min="8" required>
+        </div>
+            <p><input type="submit" class="reg" value="Register"></p>
+        </div>
+    </div>
+   
+    <script type="text/javascript" src="script.js">
+</script>
+
+</body>
+
+</html>
